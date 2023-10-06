@@ -1,0 +1,111 @@
+body {
+  margin: 0;
+  font-family: "Raleway", Arial, Helvetica, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* text-transform: uppercase; */
+}
+
+code {
+}
+
+/* start globlal variables  */
+:root {
+  /* --light-color: #b99c67;
+  --dark-color: #5c310c; */
+  /* --light-color: #fff;
+  --dark-color: black; */
+  /* --light-color: #fcb900;
+  --dark-color: #352700; */
+  --light-color: #ffffff;
+  --dark-color: #fcb900;
+  --section-padding: 60px;
+  --section-background: #f6f6f6;
+}
+/* end global variables */
+/* start global rulls  */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  user-select: none;
+}
+html {
+  scroll-behavior: smooth;
+}
+ul li {
+  list-style-type: none;
+}
+.section_container {
+}
+.section__padding {
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+/* small */
+@media (min-width: 768px) {
+  .section_container {
+    width: 750px;
+  }
+}
+/* medium */
+@media (min-width: 992px) {
+  .section_container {
+    width: 970px;
+  }
+}
+/* larg  */
+@media (min-width: 1200px) {
+  .section_container {
+    width: 1170px;
+  }
+}
+/* extra larg  */
+@media (min-width: 1400px) {
+  .section_container {
+    width: 1370px;
+  }
+}
+/* extra extra larg  */
+@media (min-width: 1600px) {
+  .section_container {
+    width: 1570px;
+  }
+}
+
+.sectionHeader {
+  font-size: 100px;
+  color: rgba(95, 84, 84, 0.782);
+  text-align: center;
+  margin: 0;
+  padding: 90px 0 90px 0;
+  text-shadow: 4px 4px 10px rgba(0, 0, 0, 0.537);
+}
+.customButtom {
+  font-size: 30px;
+  font-weight: bold;
+  /* color: var(--dark-color); */
+  color: black;
+  padding: 20px 30px;
+  /* background-color: var(--light-color); */
+  background-color: white;
+
+  border-radius: 50px;
+  /* box-shadow: 1px 1px 20px 10px var(--light-color); */
+  box-shadow: 1px 1px 20px 10px white;
+
+  cursor: pointer;
+
+  transition: 0.5s;
+}
+.customButtom:hover {
+  /* color: var(--light-color); */
+  color: white;
+  /* background-color: var(--dark-color); */
+  background-color: black;
+  /* box-shadow: 1px 1px 20px 10px var(--dark-color); */
+  box-shadow: 1px 1px 20px 10px black;
+}
+/* end global rulls  */

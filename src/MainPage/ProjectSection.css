@@ -1,0 +1,148 @@
+/* start our project section */
+.projectsSection {
+  background-color: rgb(253, 248, 243);
+  padding: 100px 0;
+}
+.projectsContainer {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+.projectCard {
+  position: relative;
+  margin: 20px;
+  box-shadow: 1px 10px 10px 5px rgba(0, 0, 0, 0.36);
+  overflow: hidden;
+
+  cursor: pointer;
+}
+.projectCard:hover {
+  transition: 0.5s;
+  scale: 102%;
+}
+.projectShowMore {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  color: white;
+  width: 100%;
+  /* height: 100%; */
+  height: 20%;
+  background-color: rgba(0, 0, 0, 0.411);
+  font-size: 20px;
+  text-decoration: underline;
+  text-align: center;
+
+  top: 0px;
+  left: 0px;
+
+  padding: 5px 10px;
+  z-index: 2;
+  transition: 0.5s;
+  /* scale: 0%;
+  border-radius: 50%; */
+  transform: translateY(500%);
+}
+.projectCard:hover .projectShowMore {
+  /* scale: 100%;
+  transform: rotate(360deg);
+  border-radius: 0px; */
+  transform: translateY(400%);
+}
+.projectCard .projectImage {
+  position: relative;
+  width: 650px;
+  height: 650px;
+  overflow: hidden;
+}
+.projectCard .projectImage img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 1;
+}
+
+.projectCard .projectDescription {
+  position: absolute;
+  background-color: rgba(255, 255, 255, 0.684);
+  font-size: 40px;
+  top: 20px;
+  padding: 20px 40px;
+  z-index: 2;
+  /* color: var(--dark-color); */
+}
+
+/* end our project section */
+
+/* 
+
+
+*/
+
+/* start footer */
+.footer {
+  padding: 100px 0 20px 0;
+  background-color: var(--light-color);
+  color: var(--dark-color);
+}
+.footer .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.FooterContactUs {
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+}
+.FooterContactUs .contact {
+  display: flex;
+  align-items: center;
+}
+.FooterContactUs .contact i {
+  margin: 20px;
+}
+
+/* strat social media icons  */
+
+.FooterSocialMediaIcons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 50px;
+}
+.FooterSocialMediaIcons i {
+  font-size: 30px;
+  color: var(--dark-color);
+  text-align: center;
+  padding: 20px;
+  cursor: pointer;
+  font-size: 30px;
+}
+.FooterSocialMediaIcons i:hover {
+  background-color: #e0e0e043;
+
+  box-shadow: inset 1px 1px 10px rgba(0, 0, 0, 0.345);
+}
+/* end social media icons  */
+.FooterCopyright {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.FooterCopyright span:nth-child(1) {
+  font-size: 20px;
+  font-weight: bold;
+  padding: 10px;
+}
+/* end footer */
