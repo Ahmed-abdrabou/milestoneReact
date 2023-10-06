@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/milestoneReact/static/css/main.212fe0a2.css",
+    "main.js": "/milestoneReact/static/js/main.21a07e97.js",
+    "static/js/787.70425cbb.chunk.js": "/milestoneReact/static/js/787.70425cbb.chunk.js",
+    "index.html": "/milestoneReact/index.html",
+    "main.212fe0a2.css.map": "/milestoneReact/static/css/main.212fe0a2.css.map",
+    "main.21a07e97.js.map": "/milestoneReact/static/js/main.21a07e97.js.map",
+    "787.70425cbb.chunk.js.map": "/milestoneReact/static/js/787.70425cbb.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.212fe0a2.css",
+    "static/js/main.21a07e97.js"
+  ]
+}
