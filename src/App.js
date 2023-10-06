@@ -15,7 +15,7 @@ const App = () => {
 
       <Routes>
         <Route path="/" element={<MainPage />} />
-        <Route path="/milestone-website" element={<MainPage />} />
+        <Route path="/milestoneReact" element={<MainPage />} />
       </Routes>
       <FooterSection />
 
